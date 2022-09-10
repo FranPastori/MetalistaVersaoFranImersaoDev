@@ -1,17 +1,44 @@
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 600px;
-  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png");
+  background-image: radial-gradient(black, rgb(80, 6, 6),black);
   background-color: #000000;
-  background-size: cover;
   background-position: center bottom;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column ;
   text-align: center;
   padding: 20px;
   height: 100vh;
+}
+.pergunta{
+color: #ffffff;
+font-size: 20px;
+
+}
+.tabela {
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column ;
+
+}
+.tabela__img {
+  padding: 10px;
+}
+.botao{
+  flex-direction:row ;
+  background-color:rgb(197, 181, 181);
+  font-size: 20px;
+  cursor: pointer
+}
+
+.botao:hover { 
+  background-color: blue;
 }
 
 .page-title {
