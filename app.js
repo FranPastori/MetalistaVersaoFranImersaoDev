@@ -1,13 +1,24 @@
-var tabela1El = document.getElementById ('tabela1');
-var tabela2El = document.querySelector('#tabela2');
-var tabela3El = document.querySelector('#tabela3');
-var tabela4El = document.querySelector('#tabela4');
-var tabela5El = document.querySelector('#tabela5');
+
 var valortabelas = [16,1,4,8,2]
 var numeroPensado = 0
-function tabela1click(){
-numeroPensado = numeroPensado + 4
+function tabela1Click(){
+numeroPensado = numeroPensado + valortabelas[0]
 }
-tabela1El.addEventListener ('click',tabela1click);
-
-console.log (numeroPensado)
+function tabela2Click(){
+    numeroPensado = numeroPensado + valortabelas[1]
+}
+function tabela3Click(){
+    numeroPensado = numeroPensado + valortabelas[2]
+}
+function tabela4Click(){
+    numeroPensado = numeroPensado + valortabelas[3]
+}
+function tabela5Click(){
+numeroPensado = numeroPensado + valortabelas[4]
+ }
+function mostra(){
+    console.log(numeroPensado)
+    numeroPensadoMostra = document.getElementById ("resultado");
+    var mensagemResultado = "O número que você pensou é " + numeroPensado;
+    numeroPensadoMostra.innerHTML = mensagemResultado;
+}
