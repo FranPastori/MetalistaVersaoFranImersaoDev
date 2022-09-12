@@ -2,34 +2,19 @@
 var valortabelas = [16,1,4,8,2]
 var numeroPensado = 0
 function tabela1Click(){
-var clicou = 1
-if (clicou<=1){
-    numeroPensado = numeroPensado + valortabelas[0]
-}
+numeroPensado = numeroPensado + valortabelas[0]
 }
 function tabela2Click(){
-var clicou2 = 1
-if (clicou2<=1){
-numeroPensado = numeroPensado + valortabelas[1]
-    }
+    numeroPensado = numeroPensado + valortabelas[1]
 }
 function tabela3Click(){
-    var clicou3 = 1
-    if (clicou3<=1){
-        numeroPensado = numeroPensado + valortabelas[2]
-    }
+    numeroPensado = numeroPensado + valortabelas[2]
 }
 function tabela4Click(){
-    var clicou4 = 1
-if (clicou4<=1){
     numeroPensado = numeroPensado + valortabelas[3]
 }
-}
 function tabela5Click(){
-    var clicou5= 1
-    if (clicou5<=1){
-        numeroPensado = numeroPensado + valortabelas[4]
-    }
+numeroPensado = numeroPensado + valortabelas[4]
  }
 function mostra(){
     console.log(numeroPensado)
