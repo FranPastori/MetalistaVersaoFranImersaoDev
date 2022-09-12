@@ -1,8 +1,10 @@
 # MetalistaVersaoFranImersaoDev
 
-Projeto desenvolvido pela inspirado no Mentalisa da ImersãoDev Alura. 
+Projeto desenvolvido pela inspirado no Mentalisa da ImersãoDev Alura.
 
-Adapatado para uma Mágica Matemática Clássica. 
+Amei fazer esse projeto, ele na verdade é uma adapatação de uma mágica matemática que sempre fiz com meus alunos, codigiquei com comandos que aprendi na Imersão DeV da Alura!!!
 
-Em construção!
-<script type="text/javascript" src="script.js"></script>
+🌷 
+❤️
+
+
