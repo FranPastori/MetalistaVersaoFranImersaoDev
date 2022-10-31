@@ -41,7 +41,9 @@ font-size: 20px;
   background-color: blue;
 }
 
-
+.botao:active{
+  transform: scale(0.98);
+}
 
 .page-title {
   color: #ffffff;
