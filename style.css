@@ -3,8 +3,9 @@ body {
   min-height: 600px;
   background-image: radial-gradient(black, rgb(80, 6, 6),black);
   background-color: #000000;
-  background-position: center bottom;
-  background-repeat: repeat;
+  background-position: center;
+  background-repeat: none;
+  background-size: 100vw;
 }
 
 .container {
